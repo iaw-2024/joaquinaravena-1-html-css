@@ -1,0 +1,119 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Body styles */
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url("../../imagenes/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#nombre,
+#apellido,
+#posicion,
+#edad {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: 0.3s;     
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; 
+}
+
+/* Footer styles */
+footer {
+    background-color: #2d6200; /* Darker green for the bottom boundary */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+    background-image: url("../../imagenes/footer.jpg");
+    background-repeat:repeat-x;
+    background-size: contain;
+}
+
+footer a {
+    color: #fff;
+    font-size: larger;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar jugador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Nuevo jugador</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        <br>
+        <label for="posicion">Posición:</label>
+        <select id="posicion" name="posicion" required>
+            <option value="">Selecciona una posición</option>
+            <option value="Arquero">Arquero</option>
+            <option value="Defensor">Defensor</option>
+            <option value="Mediocampista">Mediocampista</option>
+            <option value="Delantero">Delantero</option>
+        </select>
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required min="16" max="50" placeholder="18">
+        <br>
+        <input type="submit" value="Agregar jugador">
+    </form>
+</body>
+<footer>
+    <a href="../../listado/html_css/listado.html">Ver plantel</a>
+</html>
