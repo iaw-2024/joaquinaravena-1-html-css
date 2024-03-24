@@ -1,0 +1,12 @@
+.background-image {
+    background-image: url("../../imagenes/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.text-shadow {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
