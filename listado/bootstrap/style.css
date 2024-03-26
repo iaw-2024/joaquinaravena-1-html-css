@@ -16,7 +16,6 @@ body {
 }
 
 header {
-    padding: 20px;
     text-align: center;
     width:100%;
     position: fixed;
@@ -26,21 +25,17 @@ header {
 header h1{
     padding: 10px;
     font-size: 26px; 
-    color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
 
 
 main {
-    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: calc(100vh - 80px);   
     overflow: hidden;
-    padding-left: 8%;
-    padding-right: 8%;
 }
 
 .column {
@@ -51,8 +46,7 @@ main {
 }
 
 ul {
-    width: 100%;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     margin: 20px auto;
     background-color: #fff;
@@ -78,11 +72,7 @@ ul {
 
 /* Styling for footer */
 footer {
-    text-align: center;
     margin-top: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     padding: 10px 0;
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
     background-color: rgba(0, 0, 0, 0.5);
@@ -97,19 +87,4 @@ footer a {
 
 footer a:hover {
     color: #007bff;
-}
-
-@media screen and (max-width: 500px) {
-    main {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .column {
-        margin: 0;
-    }
-
-    .posicion {
-        max-width: none;
-    }
 }
