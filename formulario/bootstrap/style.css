@@ -1,3 +1,6 @@
+/* Bootstrap CSS classes will replace the original styles */
+
+/* Resetting default browser styles */
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +8,7 @@
     font-family: Arial, sans-serif;
 }
 
+/* Styling the body */
 body {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -15,38 +19,37 @@ body {
     background-position: center;
 }
 
+/* Styling the header */
 header {
     padding: 20px;
     text-align: center;
-    width:100%;
+    width: 100%;
     position: fixed;
     top: 0;
 }
 
-header h1{
+/* Styling the header h1 */
+header h1 {
     padding: 10px;
-    font-size: 26px; 
+    font-size: 26px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
 
-
+/* Styling the main section */
 main {
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: calc(100vh - 80px);   
+    min-height: calc(100vh - 80px);
     overflow: hidden;
-    padding-left: 8%;
-    padding-right: 8%;
 }
 
-/* Form styles */
+/* Styling the form */
 form {
-    width: 90%; 
+    width: 90%;
     max-width: 400px;
     background-color: #fff;
     padding: 20px;
@@ -55,12 +58,14 @@ form {
     margin: 20px auto;
 }
 
+/* Styling the labels */
 label {
     display: block;
     font-weight: bold;
     margin: 5px 0;
 }
 
+/* Styling the input fields and select */
 input[type="text"],
 input[type="number"],
 select {
@@ -71,15 +76,7 @@ select {
     border-radius: 5px;
 }
 
-select {
-    appearance: none;
-    padding-right: 30px;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M7 10L12 15L17 10H7Z" fill="black"/></svg>');
-    background-repeat: no-repeat;
-    background-position: calc(100% - 10px) center;
-    background-size: 20px;
-}
-
+/* Styling the submit button */
 input[type="submit"] {
     width: 100%;
     padding: 12px;
@@ -91,16 +88,14 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+/* Styling the submit button on hover */
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Footer styles */
+/* Styling the footer */
 footer {
-    text-align: center;
     margin-top: 20px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     padding: 10px 0;
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
@@ -108,14 +103,14 @@ footer {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
 
+/* Styling the footer link */
 footer a {
     font-size: 20px;
     color: #fff;
     text-decoration: underline;
 }
 
+/* Styling the footer link on hover */
 footer a:hover {
     color: #007bff;
 }
-
-
